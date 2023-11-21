@@ -1,0 +1,129 @@
+body {
+    background-color: #002c58;
+}
+
+.container {
+    display: flex;
+    background-color:rgb(202, 202, 202);
+    margin: 0 200px;
+    min-width: 944px;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(Norse-Bold.otf);
+}
+
+.image-section {
+    position: relative;
+    max-width: 100%;
+}
+
+.image-section img {
+    height: 100vh;
+    width: auto;
+    display: block;
+}
+
+.image-section .caption {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.7);
+    Example background color with some transparency */
+    color: #fff;
+    /* Example text color */
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+
+#title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 75%;
+    left: 0;
+    color: white;
+    font-size: 60pt;
+    font-family: Norse-Bold;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.image-section .title {
+    padding: 10px;
+}
+
+.image-section .caption a:link {
+    color: white;
+}
+
+#odin-logo {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right-section {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 436px;
+}
+
+.registration {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.registration .input-group {
+    margin: 5px 10px 5px 0px;
+}
+
+.registration label {
+    left: 0;
+    top: 0;
+    cursor: text;
+    padding: 3px;
+    display: block;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    margin: 0px 40px;
+}
+
+.intro {
+    margin: 100px 200px 40px 20px;
+}
+
+.form-container {
+    margin: 40px 200px 40px 20px;
+    max-width: 443px;
+    padding: 10px;
+    
+}
+
+.middle-section {
+    background-color: white;
+    box-shadow: 0px 6px 6px -3px rgba(50, 50, 50, 0.58);
+    height: auto;
+}
+
+.right-section {
+    max-height: 900px;
+}
+
+
+
+
